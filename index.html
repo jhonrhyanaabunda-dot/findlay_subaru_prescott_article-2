@@ -11,9 +11,7 @@
 <!-- with: <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" /> -->
 <!-- Also remove: /robots.txt staging file, _headers staging directives. -->
 <!-- ================================================================== -->
-<meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex" />
-<meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet,noimageindex" />
-<meta name="bingbot" content="noindex,nofollow,noarchive,nosnippet,noimageindex" />
+
 <meta name="format-detection" content="telephone=yes" />
 
 <title>The Best AWD SUV for Arizona — A Prescott Buyer's Guide | Findlay Subaru Prescott</title>
@@ -22,6 +20,11 @@
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+<link rel="preload" as="image" href="f-subaru-prescott-1-clean.png" fetchpriority="high" />
+<link rel="preconnect" href="https://www.subaru.com" crossorigin />
+<link rel="preconnect" href="https://media.subaru.com" crossorigin />
+<link rel="preconnect" href="https://www.iihs.org" crossorigin />
 
 <!-- Open Graph -->
 <meta property="og:type" content="article" />
@@ -1165,6 +1168,8 @@
     <img
       src="f-subaru-prescott-1-clean.png"
       alt="2026 Subaru Outback on a northern Arizona dirt road outside Prescott."
+      width="2848"
+      height="1502"
       loading="eager"
       fetchpriority="high"
       decoding="async"
@@ -1243,6 +1248,8 @@
         <img
           src="f-%20subaru%20prescott-2.png"
           alt="Subaru Symmetrical AWD cutaway — boxer engine, symmetric driveshafts to all four wheels."
+          width="1744"
+          height="996"
           loading="lazy"
           decoding="async"
         />
@@ -1331,13 +1338,13 @@
         <p class="tldr">The 2026 Toyota RAV4 hybrid is a serious commuter at 38–42 MPG combined AWD. The 2026 Honda CR-V starts at $30,920 with improved AWD logic. The 2026 Mazda CX-50 Meridian is a credible Outback Wilderness alternative with 8.6 inches of clearance.</p>
         <p>I'm a Subaru dealer. I'm also a person who'd rather you buy the right car than the wrong Subaru.</p>
 
-        <h3 style="margin-top: 24px;">2026 Toyota RAV4</h3>
+        <h3 style="margin-top: 24px;">When does the 2026 RAV4 hybrid actually win?</h3>
         <p>The <strong>2026 Toyota RAV4</strong> is a serious vehicle.</p>
         <p>Hybrid-only. Up to 47 MPG city in the most efficient trims. 38–42 MPG combined for AWD models. Most AWD versions tow 3,500 pounds.</p>
         <p>IIHS <a href="https://www.iihs.org/ratings/vehicle/toyota" target="_blank" rel="noopener">hasn't completed testing of the redesigned model</a>, so it doesn't currently hold a Top Safety Pick. That may change.</p>
         <p>If you commute long miles and don't drive much dirt, the math on the RAV4 is hard to argue with.</p>
 
-        <h3>2026 Honda CR-V</h3>
+        <h3>Should you cross-shop the 2026 Honda CR-V?</h3>
         <p>The <strong>2026 Honda CR-V</strong> <a href="https://hondanews.com/en-US/honda-automobiles/releases/release-2ecca7d29f72bf212c56033cca000993-2026-honda-cr-v-specifications-features-updated" target="_blank" rel="noopener">starts at $30,920</a>.</p>
         <p>Honda updated the AWD logic this year to allow up to a 50/50 front-rear split when conditions demand it. That's real progress.</p>
         <p>The catch: AWD is optional on most trims rather than standard. And the 2026 CR-V picked up <a href="https://www.iihs.org/ratings/vehicle/honda/cr-v-4-door-suv/2026" target="_blank" rel="noopener">a "Poor" rating in the IIHS moderate overlap front test</a>, keeping it out of TSP territory for now.</p>
@@ -1347,13 +1354,15 @@
           <img
             src="f-%20subaru%20prescott-%20cr%20v.jpg"
             alt="2026 Subaru Outback off-pavement on a northern Arizona trail at sunset."
+            width="890"
+            height="501"
             loading="lazy"
             decoding="async"
           />
           <figcaption id="cross-figcaption" class="sr-only">Cross-shop lineup imagery. Image courtesy of Subaru of America.</figcaption>
         </figure>
 
-        <h3>2026 Mazda CX-50</h3>
+        <h3>Is the 2026 Mazda CX-50 a credible Outback alternative?</h3>
         <p>The <strong>2026 Mazda CX-50</strong> is the one we have the most respect for.</p>
         <p>The <a href="https://www.mazdausa.com/vehicles/cx-50" target="_blank" rel="noopener">Meridian Edition</a> at 8.6 inches of clearance with all-terrain tires is a credible Outback Wilderness alternative on paper. Mazda's interior quality is genuinely class-leading.</p>
         <p>Mazda placed second among mass-market brands in <a href="https://www.jdpower.com/business/press-releases/2025-us-vehicle-dependability-study-vds" target="_blank" rel="noopener">J.D. Power's 2025 Vehicle Dependability Study</a>, behind Buick and ahead of Toyota. The 2026 CX-50 holds a <a href="https://www.iihs.org/ratings/vehicle/mazda/cx-50-4-door-suv/2026" target="_blank" rel="noopener">Top Safety Pick+</a>.</p>
@@ -1447,7 +1456,9 @@
         <figure class="full-img" aria-labelledby="why-figcaption">
           <img
             src="subaru%20showroom.webp"
-            alt="Findlay Subaru Prescott showroom — non-commissioned sales floor."
+            alt="Findlay Subaru Prescott customers and Share the Love event volunteers with dogs."
+            width="1550"
+            height="818"
             loading="lazy"
             decoding="async"
           />
@@ -1788,6 +1799,22 @@
         "@type": "Audience",
         "audienceType": "Yavapai outdoor-adventure family"
       },
+      "wordCount": 1500,
+      "articleSection": "Buyer's Guide",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".tldr", ".faq summary", ".faq .answer"]
+      },
+      "about": [
+        {"@type": "Thing", "name": "Subaru Symmetrical All-Wheel Drive"},
+        {"@type": "Thing", "name": "2026 Subaru Outback"},
+        {"@type": "Thing", "name": "2026 Subaru Forester"},
+        {"@type": "Thing", "name": "2026 Subaru Crosstrek Wilderness"},
+        {"@type": "Thing", "name": "2026 Subaru Ascent"},
+        {"@type": "Thing", "name": "2026 Toyota RAV4 Hybrid"},
+        {"@type": "Thing", "name": "2026 Honda CR-V"},
+        {"@type": "Thing", "name": "2026 Mazda CX-50"}
+      ],
       "keywords": "best awd suv for arizona, best suv for arizona heat, awd suv prescott az, subaru outback arizona, best suv for monsoon season arizona, subaru vs toyota rav4 arizona, subaru symmetrical awd vs honda awd, best family suv prescott, subaru forester arizona altitude",
       "isPartOf": {
         "@type": "WebSite",
@@ -1817,6 +1844,15 @@
       "brand": {"@type":"Brand","name":"Subaru"},
       "model": "Outback Premium",
       "vehicleModelDate": "2026",
+      "vehicleConfiguration": "AWD",
+      "driveWheelConfiguration": "https://schema.org/AllWheelDriveConfiguration",
+      "fuelType": "Gasoline",
+      "vehicleEngine": {
+        "@type": "EngineSpecification",
+        "engineDisplacement": {"@type": "QuantitativeValue", "value": 2.5, "unitText": "L"},
+        "enginePower": {"@type": "QuantitativeValue", "value": 180, "unitText": "hp"}
+      },
+      "fuelEfficiency": {"@type": "QuantitativeValue", "value": 27, "unitText": "MPG"},
       "description": "Seventh-generation Outback. 2.5L Boxer, 180 hp, 27 MPG combined, 8.7-inch ground clearance, EyeSight standard. IIHS Top Safety Pick+ for 2026.",
       "offers": {
         "@type": "Offer",
@@ -1834,6 +1870,10 @@
       "brand": {"@type":"Brand","name":"Subaru"},
       "model": "Outback Wilderness",
       "vehicleModelDate": "2026",
+      "vehicleConfiguration": "AWD",
+      "driveWheelConfiguration": "https://schema.org/AllWheelDriveConfiguration",
+      "fuelType": "Gasoline",
+      "trailerWeight": {"@type": "QuantitativeValue", "value": 3500, "unitCode": "LBR"},
       "description": "9.5-inch ground clearance, X-MODE Dual-Mode with Hill Descent Control, Bridgestone Dueler all-terrain tires, 3,500 lb tow rating, electronically controlled dampers new for 2026.",
       "offers": {
         "@type": "Offer",
@@ -1851,6 +1891,10 @@
       "brand": {"@type":"Brand","name":"Subaru"},
       "model": "Forester",
       "vehicleModelDate": "2026",
+      "vehicleConfiguration": "AWD",
+      "driveWheelConfiguration": "https://schema.org/AllWheelDriveConfiguration",
+      "fuelType": "Gasoline",
+      "trailerWeight": {"@type": "QuantitativeValue", "value": 3500, "unitCode": "LBR"},
       "description": "Subaru's best-selling vehicle nationally — 20,412 units in March 2026. Standard Symmetrical AWD. Wilderness trim: 9.3-inch clearance, 3,500 lb tow rating.",
       "offers": {
         "@type": "Offer",
@@ -1868,6 +1912,16 @@
       "brand": {"@type":"Brand","name":"Subaru"},
       "model": "Ascent",
       "vehicleModelDate": "2026",
+      "vehicleConfiguration": "AWD",
+      "driveWheelConfiguration": "https://schema.org/AllWheelDriveConfiguration",
+      "fuelType": "Gasoline",
+      "seatingCapacity": {"@type": "QuantitativeValue", "value": 8},
+      "trailerWeight": {"@type": "QuantitativeValue", "value": 5000, "unitCode": "LBR"},
+      "vehicleEngine": {
+        "@type": "EngineSpecification",
+        "engineDisplacement": {"@type": "QuantitativeValue", "value": 2.4, "unitText": "L"},
+        "enginePower": {"@type": "QuantitativeValue", "value": 260, "unitText": "hp"}
+      },
       "description": "Seven or eight passengers. 5,000 lb tow rating. 260 hp from the 2.4T. 31.7-inch third-row legroom.",
       "offers": {
         "@type": "Offer",
